@@ -42,7 +42,7 @@ por ultimo la evidencia del docker Local funcionando
 		
 y el docker en AWS 
 	
-![ev5](https://github.com/danielGomez1703/arepLab5/blob/master/resources/ev5.JPG)
+![ev5](https://github.com/danielGomez1703/arepLab5/blob/master/resources/EV5.JPG)
 
 # Descipcion
 
