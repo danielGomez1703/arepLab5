@@ -1,0 +1,5 @@
+co\edu\eci\arep\approundrobin\entity\MessageImp.class
+co\edu\eci\arep\approundrobin\persistence\ConnectionDB.class
+co\edu\eci\arep\approundrobin\service\ServiceMessage.class
+co\edu\eci\arep\approundrobin\service\ServiceMessageImp.class
+co\edu\eci\arep\approundrobin\App.class

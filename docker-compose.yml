@@ -1,0 +1,38 @@
+version: '3'
+
+
+services:
+  web:
+    build:
+      context: ./LogApp
+      dockerfile: Dockerfile
+    container_name: web
+    ports:
+      - "8091:37000"
+      
+  loadbalancer:
+    build:
+      context: ./appRoundRobin
+      dockerfile: Dockerfile
+    container_name: balancer
+    ports:
+      - "8087-8089:35000"
+      
+  db:
+    image: mongo:3.6.1
+    container_name: db
+    environment:
+      MONGO_INITDB_DATABASE: arepdb
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+
+    volumes:
+      - ./init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+      - mongodb:/data/db
+      - mongodb_config:/data/configdb
+    ports:
+      - 27017:27017
+    command: mongod
+volumes:
+  mongodb:
+  mongodb_config:
