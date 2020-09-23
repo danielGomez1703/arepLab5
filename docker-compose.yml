@@ -16,7 +16,7 @@ services:
       dockerfile: Dockerfile
     container_name: balancer
     ports:
-      - "8087-8089:35000"
+      - "8089:35000"
       
   db:
     image: mongo:3.6.1

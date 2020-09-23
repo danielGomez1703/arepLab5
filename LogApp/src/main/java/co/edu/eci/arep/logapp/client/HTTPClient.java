@@ -37,7 +37,7 @@ public class HTTPClient {
             System.out.println("entra al addmessage");
             String mensaje = req.queryParams("mensaje");
             System.out.println(mensaje + " desde log");
-            URL url = new URL("http://localhost:8089"  + "/addMessage?mensaje=" + (mensaje.replace(' ', '_')));
+            URL url = new URL("http://ec2-34-226-211-147.compute-1.amazonaws.com:8089"  + "/addMessage?mensaje=" + (mensaje.replace(' ', '_')));
             //URL url = new URL("http://localhost:" + String.valueOf(ports[actualPort]) + "/addMessage?mensaje=" + (mensaje.replace(' ', '_')));
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
             String inputLine;
@@ -54,7 +54,7 @@ public class HTTPClient {
      public String getMessage(Request req,Response res) {
         try {
             String mensaje = req.queryParams("message");
-            URL url = new URL("http://localhost:8089" + "/messages");
+            URL url = new URL("http://ec2-34-226-211-147.compute-1.amazonaws.com:8089" + "/messages");
             //URL url = new URL("http://localhost:" + String.valueOf(ports[actualPort]) + "/addMessage?mensaje=" + (mensaje.replace(' ', '_')));
             BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
             String inputLine;
