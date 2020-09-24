@@ -44,7 +44,7 @@ y el docker en AWS
 	
 ![ev5](https://github.com/danielGomez1703/arepLab5/blob/master/resources/EV5.JPG)
 
-# Descipcion
+# Descripcion
 Para consultar el documento [vaya a este link](https://github.com/danielGomez1703/arepLab5/blob/master/resources/DockerAWS.pdf)
 
 el objetivo es tener un sistema en la nube que nos sirva para un servicio stateless,  aqui nos enfocamos en los balancedores de carga y en la base de datos en este caso MONGO
