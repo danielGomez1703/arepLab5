@@ -45,13 +45,20 @@ y el docker en AWS
 ![ev5](https://github.com/danielGomez1703/arepLab5/blob/master/resources/EV5.JPG)
 
 # Descripcion
-Para consultar el documento [vaya a este link](https://github.com/danielGomez1703/arepLab5/blob/master/resources/DockerAWS.pdf)
+
 
 el objetivo es tener un sistema en la nube que nos sirva para un servicio stateless,  aqui nos enfocamos en los balancedores de carga y en la base de datos en este caso MONGO
+Las especificaciones se encuentran el documento adjunto en el repositorio.
+
+a groso modo esta es una aplicacion con una vista sencilla en una pagina web la cual envia un mensaje a un servidor y este lo envia a una base de datos. Para esto la comunicacion con cada servicio es bidireccional para aquellos servicios que se comuniquen
+
 # Documento Estructura y Diseño
 
+Para consultar el documento [vaya a este link](https://github.com/danielGomez1703/arepLab5/blob/master/resources/DockerAWS.pdf)
+
 ## Author
-    Daniel Felipe Gomez Suarez [danielGomez1703](https://github.com/danielGomez1703)
+
+Daniel Felipe Gomez Suarez [danielGomez1703](https://github.com/danielGomez1703)
     
 ## BUILT IN
    Proyecto construido en [Maven](https://maven.apache.org/)
