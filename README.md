@@ -51,7 +51,7 @@ el objetivo es tener un sistema en la nube que nos sirva para un servicio statel
 # Documento Estructura y Diseño
 
 ## Author
-    Daniel Felipe Gomez Suarez ![danielGomez1703](https://github.com/danielGomez1703)
+    Daniel Felipe Gomez Suarez [danielGomez1703](https://github.com/danielGomez1703)
     
 ## BUILT IN
    Proyecto construido en [Maven](https://maven.apache.org/)
